@@ -9,15 +9,11 @@
 
 #install.packages("shiny")
 #install.packages("ggplot2")
-#install.packages("dplyr")
 #install.packages("ggpubr")
-#install.packages("grid")
 
 library(shiny)
 library(ggplot2)
-library(dplyr)
 library(ggpubr)
-library(grid)
 
 labels <- c(
   "bytes_sum"="Cummulative read bytes", 
