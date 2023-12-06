@@ -56,7 +56,7 @@ server <- function(input, output) {
           yl <-c(0,1750)
         }
         if(input$yaxis == "iat"){
-          yl <-c(0,2)
+          yl <-c(0,0.02)
         }
         
         name = paste("datasets/2023-10-14/packets_success_",input$domain1,".csv", sep = "", collapse=NULL)
