@@ -11,6 +11,8 @@ The visualized data is extracted from OONI (Open Observatory of Network Interfer
 * ggplot2 (≥ 3.4.0)
 * shiny
 * ggpubr
+* sudo apt install libcurl4-openssl-dev libssl-dev libxml2-dev
+* sudo apt install libblas-dev liblapack-dev gfortran
 
 ## Run it
 Open the project file `shiny_app.Rproj` in RStudio, install the required packages if not already, and *Run* the application.
